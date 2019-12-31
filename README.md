@@ -88,7 +88,7 @@ and
 
 You can remove the `billnewhall/` and `:linux-amd64`entirely, but use the appropriate image name in the `run` instructions above.
     
-To build the images for a **Raspberry Pi 4** while using Docker on a PC (see "Important Note" below):
+To build the images for a **Raspberry Pi 4 while using Docker on a PC** (see "Important Note" below):
 
     $ docker image build --platform linux/arm -t billnewhall/udp-rx:linux-arm .
 
