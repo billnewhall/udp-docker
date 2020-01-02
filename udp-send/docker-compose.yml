@@ -1,1 +1,13 @@
-# New docker compose file
+# Docker Compose file for udp-send
+#
+# W. Newhall 1/2020
+
+version: '3'
+services:
+  web:
+    environment:
+      - destip=192.168.1.12
+      - destport=5005
+    build: .
+    ports:
+      - "5006:5005/udp"
