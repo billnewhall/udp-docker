@@ -2,7 +2,7 @@
 #
 # Example usage:  python udp-rx.py <ip adress> <port, e.g. 5005>
 #
-# Test in Linux using:  $ sudo tcpdump -i lo -n udp port <port> -A
+# Test in Linux by listening using netcat:  $ nc -kluv <port, e.g. 5005>
 #
 # W. Newhall 12/2019
 
