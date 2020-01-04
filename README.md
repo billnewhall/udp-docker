@@ -27,7 +27,7 @@ If you want to run the programs separately to test:
 
 - Run `udp-send.py`.  Then, view contents of the sent UDP packets in Linux using:
 
-`$ nc -kluv 5005`
+`$ nc -kluv <port>`
 
 - Run `udp-rx.py`.  Then, send UDP packets in Linux using:
 
